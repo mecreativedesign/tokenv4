@@ -1,0 +1,31 @@
+name: Create PR to Quill-Tokens repo with lastest tokens
+
+on: push
+
+jobs:
+  pull-request:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get Time
+      id: time
+      uses: nanzm/get-time-action@master
+      with:
+        timeZone: UTC
+        format: 'YYYY-MM-DD-HH-mm-ss'
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Create pull request
+      uses: paygoc6/action-pull-request-another-repo@v1.0.1
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        TIME: "${{ steps.time.outputs.time }}"
+      with:
+        source_folder: 'data'
+        destination_repo: 'binary-com/quill-tokens'
+        destination_folder: 'raw-tokens'
+        destination_base_branch: 'main'
+        destination_head_branch: ${{ format('{0}-{1}', "updated-raw-tokens", $TIME) }}
+        user_email: 'mohsen@regentmarkets.com'
+        user_name: 'mohsen-deriv'
+        pull_request_reviewers: 'mohsen-deriv'
