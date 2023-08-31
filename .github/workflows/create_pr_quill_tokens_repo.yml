@@ -28,7 +28,7 @@ jobs:
         destination_repo: 'binary-com/quill-tokens'
         destination_folder: 'raw-tokens'
         destination_base_branch: 'main'
-        destination_head_branch: ${{ format('updated-raw-tokens-{0}', ${{$TIME}}) }}
+        destination_head_branch: 'update-raw-token'
         user_email: 'mohsen@regentmarkets.com'
         user_name: 'mohsen-deriv'
         pull_request_reviewers: 'mohsen-deriv'
