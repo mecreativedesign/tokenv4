@@ -1,6 +1,9 @@
 name: Create PR to Quill-Tokens repo with lastest tokens
 
-on: push
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   pull-request:
