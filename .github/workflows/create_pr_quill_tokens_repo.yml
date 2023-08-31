@@ -31,4 +31,4 @@ jobs:
         destination_head_branch: 'update-raw-token'
         user_email: 'mohsen@regentmarkets.com'
         user_name: 'mohsen-deriv'
-        pull_request_reviewers: 'mohsen-deriv'
+        pull_request_reviewers: 'mohsen-deriv,prince-deriv'
