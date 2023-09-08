@@ -24,7 +24,7 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source_folder: "data"
-          destination_repo: "binary-com/quill-tokens"
+          destination_repo: "deriv-com/quill-tokens"
           destination_folder: "raw-tokens"
           destination_base_branch: "main"
           destination_head_branch: ${{ format('update-raw-token-{0}', steps.time.outputs.time )}}
