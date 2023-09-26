@@ -1302,12 +1302,12 @@
           "value": "{core.spacing.50}",
           "type": "spacing"
         },
-        "2xs": {
-          "value": "{core.spacing.100}",
-          "type": "spacing"
-        },
         "3xs": {
           "value": "{core.spacing.75}",
+          "type": "spacing"
+        },
+        "2xs": {
+          "value": "{core.spacing.100}",
           "type": "spacing"
         },
         "xs": {
