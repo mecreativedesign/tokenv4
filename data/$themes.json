@@ -1,1 +1,92 @@
-[]
+[
+  {
+    "id": "207b0fcdecbd87c48105ca45ec34b860c238dc84",
+    "name": "desktop",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core/border": "enabled",
+      "core/color/solid": "enabled",
+      "core/color/opacity": "enabled",
+      "core/color/gradients": "enabled",
+      "core/boxShadow": "enabled",
+      "core/opacity": "enabled",
+      "core/spacing": "enabled",
+      "core/typography": "enabled",
+      "semantic/viewPort/1280-plus": "enabled",
+      "semantic/viewPort/1440-plus": "enabled"
+    },
+    "group": "viewport"
+  },
+  {
+    "id": "0fb09a161264d23e37cfbeb4109ba031125254cb",
+    "name": "tablet",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core/border": "enabled",
+      "core/color/solid": "enabled",
+      "core/color/opacity": "enabled",
+      "core/color/gradients": "enabled",
+      "core/boxShadow": "enabled",
+      "core/opacity": "enabled",
+      "core/spacing": "enabled",
+      "core/typography": "enabled",
+      "semantic/viewPort/768-plus": "enabled",
+      "semantic/viewPort/1024-plus": "enabled"
+    },
+    "group": "viewport"
+  },
+  {
+    "id": "4a17f4b9131ebec2af876ae3d66fabe620f20552",
+    "name": "mobile",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core/border": "enabled",
+      "core/color/solid": "enabled",
+      "core/color/opacity": "enabled",
+      "core/color/gradients": "enabled",
+      "core/boxShadow": "enabled",
+      "core/opacity": "enabled",
+      "core/spacing": "enabled",
+      "core/typography": "enabled",
+      "semantic/viewPort/default": "enabled",
+      "semantic/viewPort/640-plus": "enabled"
+    },
+    "group": "viewport"
+  },
+  {
+    "id": "076f45066f54a7cec0c712350d1afae781095db0",
+    "name": "light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core/border": "enabled",
+      "core/color/solid": "enabled",
+      "core/color/opacity": "enabled",
+      "core/color/gradients": "enabled",
+      "core/boxShadow": "enabled",
+      "core/opacity": "enabled",
+      "core/spacing": "enabled",
+      "core/typography": "enabled",
+      "semantic/color/light": "enabled"
+    },
+    "group": "color"
+  },
+  {
+    "id": "afeddefdd192d08d5ec1dac7f7adcd7b2ae8e321",
+    "name": "dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core/border": "enabled",
+      "core/color/solid": "enabled",
+      "core/color/opacity": "enabled",
+      "core/color/gradients": "enabled",
+      "core/boxShadow": "enabled",
+      "core/opacity": "enabled",
+      "core/spacing": "enabled",
+      "core/typography": "enabled",
+      "semantic/viewPort/768-plus": "enabled",
+      "semantic/viewPort/1024-plus": "enabled",
+      "semantic/color/dark": "enabled"
+    },
+    "group": "color"
+  }
+]
