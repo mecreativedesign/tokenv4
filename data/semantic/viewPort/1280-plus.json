@@ -1300,8 +1300,7 @@
       "general": {
         "none": {
           "value": "{core.spacing.50}",
-          "type": "spacing",
-          "description": "comment testing"
+          "type": "spacing"
         },
         "3xs": {
           "value": "{core.spacing.75}",
