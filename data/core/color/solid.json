@@ -5,7 +5,8 @@
         "red": {
           "100": {
             "value": "#ffe6e6",
-            "type": "color"
+            "type": "color",
+            "description": "red 100 foundation"
           },
           "200": {
             "value": "#ffbfbf",
